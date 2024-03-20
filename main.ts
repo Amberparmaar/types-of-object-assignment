@@ -41,7 +41,7 @@ const laptop3 : laptopType = {
     brand: "Apple", 
     model: "MacBook Air",
     screenSize: 13.5,
-    price: 40000,
+    price: 45000,
     warranty :true,
     specification:{
         processor: "AppleMI",
@@ -50,3 +50,4 @@ const laptop3 : laptopType = {
     }
 }
 console.log(laptop1.specification.processor);
+console.log("The End");
